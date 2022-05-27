@@ -1,0 +1,44 @@
+body {
+    height: 200vh;
+    background-size: cover;
+    color:white;
+    font-family:cursive;
+    background-image:url("https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500");
+}
+
+.travel {
+    display:flex;
+    justify-content: center;
+    background-color:grey;
+    
+}
+
+.bird {
+    height:50px;
+}
+
+.spacer {
+    margin:15%;
+}
+
+.generator {
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin: auto;
+background-color:grey;
+width:600px;
+height:400px;
+    display: flex;
+    justify-content:center;
+    gap:30px;
+    align-items:center;
+    flex-direction: column;
+    background-image : url ('');
+    
+}
+
+button {
+    cursor: pointer;
+    width:200px;
+}
