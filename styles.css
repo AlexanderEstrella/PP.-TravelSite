@@ -15,6 +15,7 @@ body {
 
 .bird {
     height:50px;
+    cursor: pointer;
 }
 
 .spacer {
