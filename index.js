@@ -1,5 +1,5 @@
-var places = [ "Maldives", "Spain", "Japan", "hongkong"];
-var random = Math.floor(Math.random() * 20) + 1;
+const places = [ "Maldives", "Spain", "Japan", "hongkong"];
+const random = Math.floor(Math.random() * 20) + 1;
 
 
 function randomPlace() {
@@ -16,7 +16,7 @@ function randomPlace() {
 
 document.getElementById('button').addEventListener('click', function () {
    
-    var textbox = document.getElementById('name');
+    let textbox = document.getElementById('name');
    textbox.placeholder = randomPlace();
    
 })
